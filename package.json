@@ -1,0 +1,28 @@
+{
+  "name": "finderpackages",
+  "version": "1.0.0",
+  "description": "includes express, body-parser and path",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinSFleet/Friend-Finder.git"
+  },
+  "keywords": [
+    "express",
+    "body-parser",
+    "path"
+  ],
+  "author": "Austin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinSFleet/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/AustinSFleet/Friend-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4"
+  }
+}
