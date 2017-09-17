@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- jquery -->
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <!-- popper.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/popper.min.js"></script>
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>    
+    <title>Friend-Survey</title>
+</head>
+<body>
+
+        <div id="main1">  
+                <div id="main">
+                  <!-- <form id="userName" type="text">
+                    Name:<input type="text" name="name"><br>
+                    Image Link:<input type="text" name="image"><br>
+                  </form><br> -->
+                
+                  
+                  <div class="input-group" id="formName">
+                    <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+                  </div>
+                
+                  <div class="input-group" id="image-input">
+                    <input type="text" class="form-control" placeholder="Image Link" aria-describedby="basic-addon1">
+                  </div>
+                
+                  <hr>
+                
+                  <div id="Q1" class="qs">
+                          1) You are a very active person.<br>
+                          <input type="radio" class="q" name="q1" value="1"> 1
+                          <input type="radio" class="q" name="q1" value="2"> 2
+                          <input type="radio" class="q" name="q1" value="3"> 3
+                          <input type="radio" class="q" name="q1" value="4"> 4
+                          <input type="radio" class="q" name="q1" value="5"> 5
+                  </div><br>
+                  <hr>
+                  <div id="Q2" class="qs">      
+                
+                          2) You enjoy staying up late.<br>
+                          <input type="radio" class="q" name="q2" value="1"> 1
+                          <input type="radio" class="q" name="q2" value="2"> 2
+                          <input type="radio" class="q" name="q2" value="3"> 3
+                          <input type="radio" class="q" name="q2" value="4"> 4
+                          <input type="radio" class="q" name="q2" value="5"> 5  
+                  </div><br>
+                  <hr>
+                  <div id="Q3" class="qs">      
+                
+                          3) You like animals.<br>
+                          <input type="radio" class="q" name="q3" value="1"> 1
+                          <input type="radio" class="q" name="q3" value="2"> 2
+                          <input type="radio" class="q" name="q3" value="3"> 3
+                          <input type="radio" class="q" name="q3" value="4"> 4
+                          <input type="radio" class="q" name="q3" value="5"> 5 
+                  </div><br>
+                  <hr>
+                  <div id="Q4" class="qs">      
+                
+                          4) You like playing video games.<br>
+                          <input type="radio" class="q" name="q4" value="1"> 1
+                          <input type="radio" class="q" name="q4" value="2"> 2
+                          <input type="radio" class="q" name="q4" value="3"> 3
+                          <input type="radio" class="q" name="q4" value="4"> 4
+                          <input type="radio" class="q" name="q4" value="5"> 5
+                  </div><br>
+                  <hr>
+                  <div id="Q5" class="qs">      
+                
+                          5) You love listening to music.<br>
+                          <input type="radio" class="q" name="q5" value="1"> 1
+                          <input type="radio" class="q" name="q5" value="2"> 2
+                          <input type="radio" class="q" name="q5" value="3"> 3
+                          <input type="radio" class="q" name="q5" value="4"> 4
+                          <input type="radio" class="q" name="q5" value="5"> 5
+                  </div><br>
+                  <hr>
+                  <div id="Q6" class="qs">      
+                
+                          6) You have strong political views.<br>
+                          <input type="radio" class="q" name="q6" value="1"> 1
+                          <input type="radio" class="q" name="q6" value="2"> 2
+                          <input type="radio" class="q" name="q6" value="3"> 3
+                          <input type="radio" class="q" name="q6" value="4"> 4
+                          <input type="radio" class="q" name="q6" value="5"> 5 
+                  </div><br>
+                  <hr>
+                  <div id="Q7" class="qs">      
+                
+                          7) You enjoy traveling abroad.<br>
+                          <input type="radio" class="q" name="q7" value="1"> 1
+                          <input type="radio" class="q" name="q7" value="2"> 2
+                          <input type="radio" class="q" name="q7" value="3"> 3
+                          <input type="radio" class="q" name="q7" value="4"> 4
+                          <input type="radio" class="q" name="q7" value="5"> 5
+                  </div><br>
+                  <hr>
+                  <div id="Q8" class="qs">      
+                
+                          8) You like to read.<br>
+                          <input type="radio" class="q" name="q8" value="1"> 1
+                          <input type="radio" class="q" name="q8" value="2"> 2
+                          <input type="radio" class="q" name="q8" value="3"> 3
+                          <input type="radio" class="q" name="q8" value="4"> 4
+                          <input type="radio" class="q" name="q8" value="5"> 5
+                  </div><br>
+                  <hr>
+                  <div id="Q9" class="qs">      
+                
+                          9) You are a religious person.<br>
+                          <input type="radio" class="q" name="q9" value="1"> 1
+                          <input type="radio" class="q" name="q9" value="2"> 2
+                          <input type="radio" class="q" name="q9" value="3"> 3
+                          <input type="radio" class="q" name="q9" value="4"> 4
+                          <input type="radio" class="q" name="q9" value="5"> 5  
+                  </div><br>
+                  <hr>
+                  <div id="Q10" class="qs">      
+                
+                          10) You love learning.<br>
+                          <input type="radio" class="q" name="q10" value="1"> 1
+                          <input type="radio" class="q" name="q10" value="2"> 2
+                          <input type="radio" class="q" name="q10" value="3"> 3
+                          <input type="radio" class="q" name="q10" value="4"> 4
+                          <input type="radio" class="q" name="q10" value="5"> 5  
+                  </div><br>
+                  <hr>
+                
+                    <button type="button" id='Submit1' class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">SUBMIT</button>
+                  </div>
+                </div>
+                </div>
+                </div>
+                
+                <!-- modal code from: http://www.w3schools.com/bootstrap/bootstrap_modal.asp -->
+                <!-- Modal -->
+                <div id="myModal" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Closest Match:</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p id='friendName'>Name:</p>
+                        <p id='friendImage'></p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" id='closeButton' data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                
+                  </div>
+                </div>
+                
+                <script type="text/javascript">
+                  
+                  var url = window.location.origin;
+                  $('#Submit1').on('click', function(){
+                    var isChecked;
+                    if($('#formName').val().trim()!=='' && $('#image-input').val().trim()!=='') {
+                      isChecked = true;
+                    }
+                    if(isChecked){
+                      var newPerson = {
+                        'name':$('#formName').val().trim(),
+                        'image':$('#image-input').val().trim(),
+                        'scores': [
+                            $('input[name= 'q1']:checked').val(),
+                            $('input[name='q2']:checked').val(),
+                            $('input[name='q3']:checked').val(),
+                            $('input[name='q4']:checked').val(),
+                            $('input[name='q5']:checked').val(),
+                            $('input[name='q6']:checked').val(),
+                            $('input[name='q7']:checked').val(),
+                            $('input[name='q8']:checked').val(),
+                            $('input[name='q9']:checked').val(),
+                            $('input[name='q10']:checked').val()
+                        ]
+                      };
+                      $.post(url + 'api/survey', newPerson,
+                      function(data){
+                        console.log('Name: ' + data.name);
+                        console.log('Image Link: ' + data.image);
+                        $('#friendName').text(data.name);
+                        $('#friendImage').text(data.image);
+                      });
+                    };
+                    
+                    else{
+                      alert('Please enter both your name and image link!');
+                    }
+                    return false;
+                  });
+                </script>
+    
+</body>
+</html>
